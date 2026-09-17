@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ — Vũ Nguyễn Gia Bảo</title>
+  <meta name="description" content="Thông tin liên hệ và form gửi lời nhắn cho Vũ Nguyễn Gia Bảo.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="brand">Gia Bảo<span>.</span></a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li><a href="projects.html">Dự án</a></li>
+          <li><a href="contact.html" aria-current="page">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h1>Cùng trò chuyện nhé</h1>
+          <p>Mình luôn vui khi được trao đổi về một dự án mới, một cơ hội thực tập, hoặc đơn giản là về sách hay và trận bóng cuối tuần. Điền vào form bên dưới hoặc liên hệ trực tiếp qua các kênh dưới đây.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form" action="mailto:giabao.dev@example.com" method="post" enctype="text/plain">
+            <div>
+              <label for="name">Họ và tên</label>
+              <input type="text" id="name" name="name" placeholder="Nguyễn Văn A" required>
+            </div>
+            <div>
+              <label for="email">Email của bạn</label>
+              <input type="email" id="email" name="email" placeholder="ban@vidu.com" required>
+            </div>
+            <div>
+              <label for="message">Lời nhắn</label>
+              <textarea id="message" name="message" placeholder="Mình muốn trao đổi về..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Gửi lời nhắn</button>
+          </form>
+
+          <div class="contact-info">
+            <h2>Thông tin liên hệ</h2>
+            <ul>
+              <li>
+                <span class="label">Email</span>
+                <a href="mailto:giabao.dev@example.com">giabao.dev@example.com</a>
+              </li>
+              <li>
+                <span class="label">Địa điểm</span>
+                Đà Nẵng, Việt Nam
+              </li>
+              <li>
+                <span class="label">GitHub</span>
+                <a href="https://github.com/" target="_blank" rel="noopener">github.com/giabao-dev</a>
+              </li>
+              <li>
+                <span class="label">LinkedIn</span>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/giabao-dev</a>
+              </li>
+            </ul>
+            <p>Mình thường phản hồi trong vòng 1–2 ngày làm việc. Nếu là việc gấp, hãy ghi rõ điều đó trong lời nhắn nhé.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p class="brand" style="color:var(--paper)">Gia Bảo<span>.</span></p>
+        <ul class="footer-social">
+          <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:giabao.dev@example.com">Email</a></li>
+        </ul>
+        <p class="footer-note">Font chữ Fraunces &amp; Work Sans từ Google Fonts. Minh họa và giao diện mẫu do tác giả tự thiết kế.</p>
+      </div>
+      <p class="footer-note">© 2026 Vũ Nguyễn Gia Bảo. Website đồ án học phần Thiết kế Web.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

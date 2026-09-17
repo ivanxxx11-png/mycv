@@ -1,0 +1,37 @@
+<svg viewBox="0 0 480 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Minh họa giao diện ứng dụng Nhịp Ngày - theo dõi thói quen hằng ngày">
+  <rect width="480" height="340" rx="10" fill="#f1e9d8"/>
+  <!-- khung điện thoại -->
+  <rect x="150" y="24" width="180" height="292" rx="22" fill="#23291f"/>
+  <rect x="162" y="46" width="156" height="248" rx="6" fill="#f1e9d8"/>
+  <rect x="180" y="62" width="90" height="14" rx="4" fill="#23291f"/>
+  <circle cx="290" cy="68" r="9" fill="#c9a227"/>
+  <!-- vòng tiến độ -->
+  <circle cx="240" cy="140" r="46" fill="none" stroke="#e8ddc6" stroke-width="12"/>
+  <path d="M240 94 a46 46 0 1 1 -32 14" fill="none" stroke="#57715a" stroke-width="12" stroke-linecap="round"/>
+  <text x="240" y="147" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#23291f">72%</text>
+  <!-- danh sách thói quen -->
+  <g>
+    <rect x="180" y="206" width="140" height="26" rx="6" fill="#e8ddc6"/>
+    <circle cx="194" cy="219" r="6" fill="#57715a"/>
+    <rect x="210" y="214" width="90" height="10" rx="4" fill="#23291f" opacity="0.75"/>
+  </g>
+  <g>
+    <rect x="180" y="240" width="140" height="26" rx="6" fill="#e8ddc6"/>
+    <circle cx="194" cy="253" r="6" fill="#b4552e"/>
+    <rect x="210" y="248" width="70" height="10" rx="4" fill="#23291f" opacity="0.75"/>
+  </g>
+  <g>
+    <rect x="180" y="274" width="140" height="26" rx="6" fill="#e8ddc6"/>
+    <circle cx="194" cy="287" r="6" fill="#c9a227"/>
+    <rect x="210" y="282" width="100" height="10" rx="4" fill="#23291f" opacity="0.75"/>
+  </g>
+  <!-- ghi chú bên ngoài khung -->
+  <rect x="16" y="130" width="110" height="70" rx="6" fill="#e8ddc6"/>
+  <rect x="30" y="144" width="80" height="10" rx="4" fill="#57715a"/>
+  <rect x="30" y="162" width="60" height="8" rx="4" fill="#2b2b26" opacity="0.5"/>
+  <rect x="30" y="178" width="70" height="8" rx="4" fill="#2b2b26" opacity="0.5"/>
+  <rect x="354" y="150" width="110" height="70" rx="6" fill="#e8ddc6"/>
+  <rect x="368" y="164" width="80" height="10" rx="4" fill="#b4552e"/>
+  <rect x="368" y="182" width="60" height="8" rx="4" fill="#2b2b26" opacity="0.5"/>
+  <rect x="368" y="198" width="70" height="8" rx="4" fill="#2b2b26" opacity="0.5"/>
+</svg>

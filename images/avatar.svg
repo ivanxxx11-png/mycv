@@ -1,0 +1,43 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Minh họa chân dung cách điệu của Gia Bảo">
+  <defs>
+    <clipPath id="frame"><rect x="0" y="0" width="360" height="360" rx="8"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="360" height="360" fill="#e8ddc6"/>
+    <circle cx="180" cy="150" r="230" fill="#f1e9d8"/>
+    <!-- áo thể thao -->
+    <path d="M60 360 C60 250 120 208 180 208 C240 208 300 250 300 360 Z" fill="#57715a"/>
+    <path d="M150 214 L180 250 L210 214" fill="none" stroke="#f1e9d8" stroke-width="6"/>
+    <circle cx="180" cy="330" r="18" fill="#b4552e" opacity="0.9"/>
+    <!-- cổ -->
+    <rect x="158" y="182" width="44" height="42" fill="#d9a066"/>
+    <!-- đầu -->
+    <ellipse cx="180" cy="136" rx="70" ry="78" fill="#e6b483"/>
+    <!-- tóc ngắn -->
+    <path d="M112 128 C104 58 256 58 248 128 C244 92 214 76 180 76 C146 76 116 92 112 128 Z" fill="#2b2117"/>
+    <path d="M108 118 C110 105 118 96 128 92 C120 100 116 112 116 124 Z" fill="#2b2117"/>
+    <path d="M252 118 C250 105 242 96 232 92 C240 100 244 112 244 124 Z" fill="#2b2117"/>
+    <!-- lông mày -->
+    <path d="M144 130 q12 -8 24 0" stroke="#2b2117" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M192 130 q12 -8 24 0" stroke="#2b2117" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- mắt -->
+    <circle cx="156" cy="142" r="5" fill="#23291f"/>
+    <circle cx="204" cy="142" r="5" fill="#23291f"/>
+    <!-- miệng cười -->
+    <path d="M158 172 Q180 186 202 172" stroke="#b4552e" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- quyển sách trên tay, gợi ý sở thích đọc sách -->
+    <g transform="translate(96,240) rotate(-8)">
+      <rect x="0" y="0" width="58" height="42" rx="3" fill="#c9a227"/>
+      <rect x="4" y="4" width="50" height="34" rx="2" fill="#f1e9d8"/>
+      <line x1="29" y1="4" x2="29" y2="38" stroke="#c9a227" stroke-width="2"/>
+    </g>
+    <!-- quả bóng, gợi ý sở thích thể thao -->
+    <g transform="translate(214,236)">
+      <circle cx="24" cy="24" r="24" fill="#f1e9d8" stroke="#23291f" stroke-width="3"/>
+      <path d="M24 6 L34 16 L30 30 L18 30 L14 16 Z" fill="#23291f"/>
+      <path d="M24 6 L24 -2 M34 16 L44 12 M30 30 L36 42 M18 30 L12 42 M14 16 L4 12" stroke="#23291f" stroke-width="2"/>
+    </g>
+    <!-- viền khung trang trí -->
+    <rect x="10" y="10" width="340" height="340" fill="none" stroke="#b4552e" stroke-width="2" rx="6"/>
+  </g>
+</svg>

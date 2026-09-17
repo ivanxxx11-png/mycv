@@ -1,0 +1,9 @@
+Đường dẫn website đã triển khai trên GitHub Pages:
+
+https://<ten-tai-khoan>.github.io/<ten-repo>/
+
+Hướng dẫn lấy đường dẫn thật:
+1. Đưa toàn bộ mã nguồn trong thư mục project/ lên một repository GitHub (xem hướng dẫn chi tiết trong README.md).
+2. Bật GitHub Pages trong Settings > Pages, chọn nhánh main, thư mục / (root).
+3. Sau khi GitHub Pages publish xong, thay dòng link mẫu ở trên bằng đường dẫn thật mà GitHub cung cấp.
+4. Kiểm tra lại website qua đường dẫn đó trước khi nộp bài.
